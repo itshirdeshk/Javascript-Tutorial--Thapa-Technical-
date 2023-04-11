@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8e7af;
+    display: grid;
+    place-items: center;
+}
+
+#container {
+    background-color: rgb(240, 141, 174);
+    width: 45vw;
+    height: 40vh;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 12px 20px -6px black;
+}
+
+label {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: larger;
+}
+
+#temp, #temp_diff {
+    text-align: center;
+    width: 130px;
+    height: 25px;
+}
+
+#container2 {
+    text-align: center;
+}
+
+#container3 {
+    text-align: center;
+}
+
+#submitButton {
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#container4 {
+    text-align: center;
+}
+
+span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
